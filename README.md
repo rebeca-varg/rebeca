@@ -3,3 +3,5 @@
 [Rebeca] imagen
 
 [Rebeca] cambio de imagen
+
+[Rebeca] cambio de ventana
