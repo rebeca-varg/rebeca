@@ -5,3 +5,5 @@
 [Rebeca] cambio de imagen
 
 [Rebeca] cambio de ventana
+
+[Rebeca] cambio de scream
