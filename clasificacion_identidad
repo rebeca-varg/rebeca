@@ -1,0 +1,10 @@
+Edad_str = input("Bienvenido,por favor ingresa tu edad:")
+Edad= int(Edad_str)
+if Edad >= 18: #Condicion 1
+  print("Es mayor de edad. ¡Puede votar y conducir (con licencia)")
+elif Edad >= 13: #Condicion 2
+  print ("Es un adolescente.")
+elif Edad < 0: #Condicion 3
+  print("Edad invalida. ¡Los viajes en el tiempo no son comerciales!")
+else: #Bloque opcional
+  print("es un niño o niña.")
