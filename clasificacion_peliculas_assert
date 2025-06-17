@@ -1,0 +1,21 @@
+def obtener_clasificacion_pelicula(edad):
+    if edad < 0:
+        return "Edad no válida."
+    elif edad >= 18:
+        return "Puedes ver películas clasificadas R!"
+    elif edad >= 13:
+        return "Puedes ver películas clasificadas PG-13."
+    else:
+        return "Te recomendamos películas clasificadas G o PG."
+
+# Pruebas con assert
+print("Ejecutando pruebas...")
+
+assert obtener_clasificacion_pelicula(20) == "Puedes ver películas clasificadas R!", "Prueba fallida: Adulto"
+assert obtener_clasificacion_pelicula(18) == "Puedes ver películas clasificadas R!", "Prueba fallida: Límite Adulto"
+assert obtener_clasificacion_pelicula(15) == "Puedes ver películas clasificadas PG-13.", "Prueba fallida: Adolescente"
+assert obtener_clasificacion_pelicula(13) == "Puedes ver películas clasificadas PG-13.", "Prueba fallida: Límite Adolescente"
+assert obtener_clasificacion_pelicula(10) == "Te recomendamos películas clasificadas G o PG.", "Prueba fallida: Niño"
+assert obtener_clasificacion_pelicula(-5) == "Edad no válida.", "Prueba fallida: Edad negativa"
+
+print("¡Todas las pruebas pasaron exitosamente! Nuestra función es robusta. ")
