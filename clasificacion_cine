@@ -1,0 +1,10 @@
+edad_str = input("Bienvenido al cine, ¿Cual es tu edad?:" )
+edad = int(edad_str)
+if edad < 0:
+  print ("Edad no valida. por favor, ingresa un numero positivo.")
+elif edad >= 18:
+  print ("Puedes ver peliculas clasificadas R!")
+elif edad >= 13: # la edad no es >= 18 y < 0
+  print ("Puedes ver peliculas clasificadas PG-13.")
+elif edad < 13:
+  print ("Puedes ver peliculas clasificadas A.")
