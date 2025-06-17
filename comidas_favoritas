@@ -1,0 +1,12 @@
+comidas_favoritas = ['Salteado', 'Burger', 'Poppers']
+# Paso 2: Imprimir la lista
+print(comidas_favoritas)
+# Paso 3: Imprimir el segundo elemento (índice 1)
+print(f"Mi segunda comida favorita es: {comidas_favoritas[1]}")
+# Paso 4: Modificar el primer elemento (índice 0)
+comidas_favoritas[0] = "Salpicon"
+# Paso 5: Imprimir la lista modificada
+print(comidas_favoritas)
+# Paso 6: Imprimir la longitud d
+print(len(comidas_favoritas))
+print("Rebeca Vargas - FIN DEL PROGRAMA")
