@@ -1,0 +1,13 @@
+matriz= [0, 2, 3], [4, 5, 6], [7, 8, 9]
+# OPCION 1: Recorriendo con indices
+num_filas = len(matriz)
+num_columnas = len(matriz[0])
+for i in range(num_filas):
+  for j in range(num_columnas):
+    elemento = matriz[i][j]
+    print(f"elemento en ({i},{j} es {elemento}")
+# OPCION 2: Recorriendo por elemento (mas "pythonico")
+for fila_actual in matriz:
+  for elemento in fila_actual:
+    print(elemento, end="\t")
+  print()
