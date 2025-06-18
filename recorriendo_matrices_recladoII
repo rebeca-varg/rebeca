@@ -1,0 +1,17 @@
+teclado= [
+  ["[0]", "[2]", "[3]"], 
+  ["[4]", "[5]", "[6]"], 
+  ["[7]", "[8]", "[9]"]
+]
+# OPCION 1: Recorriendo con indices
+num_filas = len(teclado)
+num_columnas = len(teclado[0])
+for i in range(num_filas):
+  for j in range(num_columnas):
+    tecla=teclado[i][j]
+    print(f"Tecla en ({i},{j} es {tecla}")
+# OPCION 2: Recorriendo por elemento (mas "pythonico")
+for fila in teclado:
+  for tecla in fila:
+    print(tecla, end="")
+  print()
